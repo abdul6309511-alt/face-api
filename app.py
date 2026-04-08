@@ -57,7 +57,7 @@ async def match_face(request: Request,
                 result = DeepFace.verify(
                     ref_img,
                     face_crop,
-                    model_name="Facenet",
+                    model_name="SFace",
                     enforce_detection=False
                 )
 
