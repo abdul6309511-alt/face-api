@@ -3,3 +3,4 @@ uvicorn
 deepface
 opencv-python-headless
 numpy
+python-multipart
